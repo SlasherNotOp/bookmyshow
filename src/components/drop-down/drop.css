@@ -1,10 +1,11 @@
 .drop {
     font-family: Arial, sans-serif;
     
-    margin-top: 50px;
+    
   }
   
   select {
     padding: 10px;
     font-size: 16px;
+    border: none
   }

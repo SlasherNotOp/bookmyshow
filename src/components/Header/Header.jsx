@@ -1,6 +1,7 @@
 import Drop from "../drop-down/Drop";
-import logo1 from "../../assets/bookmyshow-logo-vector.png"
+import logo1 from "../../assets/logo.svg"
 import logo2 from "../../assets/bars-solid.svg"
+import "./Header.css"
 
 
 
