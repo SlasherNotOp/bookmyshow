@@ -10,13 +10,13 @@ const Header = () => {
     <div id="navbar">
       <div className="left">
         <div className="logo_img">
-          <img src={logo1}></img>
+          <img src={logo1} ></img>
         </div>
-        <input type="text"></input>
+        <input type="text" placeholder="Search for Movie, Events, Plays, Sports and Activities"></input>
       </div>
       <div className="right">
       <Drop/>
-      <button>Sign in</button>
+      <button className="sign-in">Sign in</button>
       <div className="svg-img">
         <img src={logo2}></img>
       </div>

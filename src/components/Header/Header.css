@@ -7,14 +7,17 @@
 }
 #navbar .left{
     display: flex;
-    width: 55%;
+    width: 58%;
+    align-items: center;
 }
 
 #navbar .left .logo_img{
-    width: 7rem;    
+    width: 9rem;    
 }
 #navbar .left input{
     width: 100%;
+    margin: 0 2rem;
+    height: 80%;
 }
 
 #navbar img{
@@ -24,8 +27,20 @@
 }
 #navbar .right{
     display: flex;
+    gap: 2rem;
+    align-items: center;
 }
 
 #navbar .right .svg-img{
     width: 1.2rem;
+}
+
+
+#navbar .right .sign-in{
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.3rem;
+    font-size: 0.75rem;
+    background-color: #f84464;
+    color: #fff;
+    border: none;
 }
