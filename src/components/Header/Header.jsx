@@ -5,7 +5,12 @@ import "./Header.css"
 
 
 
-const Header = () => {
+
+ const Header = () => {
+
+  
+
+
   return (
     <div id="navbar">
       <div className="left">
@@ -22,6 +27,8 @@ const Header = () => {
       </div>
       </div>
     </div>
+    
   );
+  
 };
 export default Header;
